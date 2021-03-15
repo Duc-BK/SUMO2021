@@ -1,0 +1,180 @@
+Removed Pin From Net: NetName=GND Pin=A-1
+Removed Pin From Net: NetName=GND Pin=A-2
+Removed Pin From Net: NetName=GND Pin=B-2
+Removed Pin From Net: NetName=NetC2_2 Pin=FL 1-1
+Removed Pin From Net: NetName=GND Pin=FL 1-2
+Removed Pin From Net: NetName=NetC2_2 Pin=FL 2-1
+Removed Pin From Net: NetName=GND Pin=FL 2-2
+Removed Pin From Net: NetName=NetC2_2 Pin=FL3-1
+Removed Pin From Net: NetName=GND Pin=FL3-2
+Removed Pin From Net: NetName=NetC2_2 Pin=FL4-1
+Removed Pin From Net: NetName=GND Pin=FL4-2
+Removed Pin From Net: NetName=GND Pin=main power-1
+Removed Pin From Net: NetName=GND Pin=main power-2
+Removed Pin From Net: NetName=NetC1_2 Pin=main power-3
+Removed Pin From Net: NetName=NetC1_2 Pin=main power-4
+Removed Pin From Net: NetName=GND Pin=Power STM-2
+Removed Pin From Net: NetName=NetC1_2 Pin=Q-1
+Removed Pin From Net: NetName=GND Pin=Q-2
+Removed Pin From Net: NetName=NetC2_2 Pin=Q-3
+Removed Pin From Net: NetName=NetC2_2 Pin=VC1-3
+Removed Member From Class: ClassName=sumoLab Member=A
+Removed Member From Class: ClassName=sumoLab Member=B
+Removed Member From Class: ClassName=sumoLab Member=FL 1
+Removed Member From Class: ClassName=sumoLab Member=FL 2
+Removed Member From Class: ClassName=sumoLab Member=FL3
+Removed Member From Class: ClassName=sumoLab Member=FL4
+Removed Member From Class: ClassName=sumoLab Member=main power
+Removed Member From Class: ClassName=sumoLab Member=Power STM
+Removed Member From Class: ClassName=sumoLab Member=Q
+Change Component Footprint: Designator=button Old Footprint=HDR3 New Footprint=Header3
+Change Component Footprint: Designator=VC1 Old Footprint=HDR3 New Footprint=Header3
+Change Component Footprint: Designator=VC2 Old Footprint=HDR3 New Footprint=Header3
+Change Component Footprint: Designator=VC3 Old Footprint=HDR3 New Footprint=Header3
+Change Component Footprint: Designator=VC4 Old Footprint=HDR3 New Footprint=Header3
+Change Component Footprint: Designator=L298N Old Footprint=HDR4 New Footprint=Header4
+Change Component Comment : Designator=C3 Old Comment=100uF/35V New Comment=1000uF/16V
+Added Component: Designator=C4(CP1.5/3.4)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Description 1"; Value = "1000uF/6,3V - 470uF/16V - 330uF - 25V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Description 2"; Value = "220uF/35V - 100uF/50V - 63V - 4,7uF/200V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Description 3"; Value = "22uF => 33uF100V - 3,3uF => 4,7uF/250V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Description 4"; Value = "2,2uF =>3,3uF/350 - 2,2uF/400V - 1uF/450V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100uF/35V/50V"; VariantName = "[No Variations]"
+Added Component: Designator=IC?(QTO-220)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = ""; Value = "LM7808"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "LM7805"; VariantName = "[No Variations]"
+Added Component: Designator=JP1(HED2)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Class"; Value = "Connector"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Generic Components"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "Header 2"; VariantName = "[No Variations]"
+Added Component: Designator=JP2(HED2)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Class"; Value = "Connector"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Generic Components"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "Header 2"; VariantName = "[No Variations]"
+Added Component: Designator=u(BLUE_PILL)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "DeviceName"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeviceSetName"; Value = "BLUE_PILL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "GateName_1"; Value = "G$1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LibraryName"; Value = "BluePill"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "BLUE_PILL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SymbolName_1"; Value = "BLUE_PILL"; VariantName = "[No Variations]"
+Added Component: Designator=VC5(Header3)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink1 Description"; Value = "Manufacturer"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.we-online.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2 Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://katalog.we-online.de/em/datasheet/6130xx143121.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Created by"; Value = "Karrer Zheng"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Created Date"; Value = "29 March 2013"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "W¨¹rth Elektronik eiSos GmbH"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "NoPins"; Value = "02"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "partNo"; Value = "613002143121"; VariantName = "[No Variations]"
+Added Component: Designator=VC6(Header3)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink1 Description"; Value = "Manufacturer"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.we-online.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2 Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://katalog.we-online.de/em/datasheet/6130xx143121.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Created by"; Value = "Karrer Zheng"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Created Date"; Value = "29 March 2013"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "W¨¹rth Elektronik eiSos GmbH"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "NoPins"; Value = "02"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "partNo"; Value = "613002143121"; VariantName = "[No Variations]"
+Added Component: Designator=VC7(Header3)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink1 Description"; Value = "Manufacturer"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.we-online.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2 Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://katalog.we-online.de/em/datasheet/6130xx143121.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Created by"; Value = "Karrer Zheng"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Created Date"; Value = "29 March 2013"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "W¨¹rth Elektronik eiSos GmbH"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "NoPins"; Value = "02"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "partNo"; Value = "613002143121"; VariantName = "[No Variations]"
+Added Component: Designator=VC8(Header3)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink1 Description"; Value = "Manufacturer"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.we-online.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2 Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://katalog.we-online.de/em/datasheet/6130xx143121.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Created by"; Value = "Karrer Zheng"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Created Date"; Value = "29 March 2013"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "W¨¹rth Elektronik eiSos GmbH"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "NoPins"; Value = "02"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "partNo"; Value = "613002143121"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetC2_2 Pin=button-3
+Added Pin To Net: NetName=NetC1_2 Pin=C4-1
+Added Pin To Net: NetName=GND Pin=C4-2
+Added Pin To Net: NetName=NetC1_2 Pin=IC?-1
+Added Pin To Net: NetName=GND Pin=IC?-2
+Added Pin To Net: NetName=NetC2_2 Pin=IC?-3
+Added Pin To Net: NetName=NetC1_2 Pin=JP1-1
+Added Pin To Net: NetName=GND Pin=JP1-2
+Added Pin To Net: NetName=GND Pin=JP2-2
+Added Pin To Net: NetName=GND Pin=u-P$19
+Added Pin To Net: NetName=GND Pin=u-P$21
+Added Pin To Net: NetName=GND Pin=u-P$22
+Added Pin To Net: NetName=GND Pin=VC5-2
+Added Pin To Net: NetName=NetC2_2 Pin=VC5-3
+Added Pin To Net: NetName=GND Pin=VC6-2
+Added Pin To Net: NetName=NetC2_2 Pin=VC6-3
+Added Pin To Net: NetName=GND Pin=VC7-2
+Added Pin To Net: NetName=NetC2_2 Pin=VC7-3
+Added Pin To Net: NetName=GND Pin=VC8-2
+Added Pin To Net: NetName=NetC2_2 Pin=VC8-3
+Change Net Name : Old Net Name=NetC2_2 New Net Name=Netbutton_3
+Added Pin To Net: NetName=Netbutton_1 Pin=button-1
+Added Pin To Net: NetName=Netbutton_1 Pin=u-P$36
+Added Net: Name=Netbutton_1
+Added Pin To Net: NetName=NetJP2_1 Pin=JP2-1
+Added Pin To Net: NetName=NetJP2_1 Pin=u-P$18
+Added Net: Name=NetJP2_1
+Added Pin To Net: NetName=NetL298N_1 Pin=L298N-1
+Added Pin To Net: NetName=NetL298N_1 Pin=u-P$15
+Added Net: Name=NetL298N_1
+Added Pin To Net: NetName=NetL298N_2 Pin=L298N-2
+Added Pin To Net: NetName=NetL298N_2 Pin=u-P$14
+Added Net: Name=NetL298N_2
+Added Pin To Net: NetName=NetL298N_3 Pin=L298N-3
+Added Pin To Net: NetName=NetL298N_3 Pin=u-P$13
+Added Net: Name=NetL298N_3
+Added Pin To Net: NetName=NetL298N_4 Pin=L298N-4
+Added Pin To Net: NetName=NetL298N_4 Pin=u-P$12
+Added Net: Name=NetL298N_4
+Added Pin To Net: NetName=Netu_P$6 Pin=u-P$6
+Added Pin To Net: NetName=Netu_P$6 Pin=VC7-1
+Added Pin To Net: NetName=Netu_P$6 Pin=VC8-1
+Added Net: Name=Netu_P$6
+Added Pin To Net: NetName=Netu_P$7 Pin=u-P$7
+Added Pin To Net: NetName=Netu_P$7 Pin=VC6-1
+Added Net: Name=Netu_P$7
+Added Pin To Net: NetName=Netu_P$8 Pin=u-P$8
+Added Pin To Net: NetName=Netu_P$8 Pin=VC5-1
+Added Net: Name=Netu_P$8
+Added Pin To Net: NetName=Netu_P$32 Pin=u-P$32
+Added Pin To Net: NetName=Netu_P$32 Pin=VC1-1
+Added Net: Name=Netu_P$32
+Added Pin To Net: NetName=Netu_P$33 Pin=u-P$33
+Added Pin To Net: NetName=Netu_P$33 Pin=VC2-1
+Added Net: Name=Netu_P$33
+Added Pin To Net: NetName=Netu_P$34 Pin=u-P$34
+Added Pin To Net: NetName=Netu_P$34 Pin=VC3-1
+Added Net: Name=Netu_P$34
+Added Pin To Net: NetName=Netu_P$35 Pin=u-P$35
+Added Pin To Net: NetName=Netu_P$35 Pin=VC4-1
+Added Net: Name=Netu_P$35
+Added Member To Class: ClassName=sumoLab Member=Component C4 1000uF/16V
+Added Member To Class: ClassName=sumoLab Member=Component IC? LM7805
+Added Member To Class: ClassName=sumoLab Member=Component JP1 Header 2_1
+Added Member To Class: ClassName=sumoLab Member=Component JP2 Header 2_1
+Added Member To Class: ClassName=sumoLab Member=Component u BLUE_PILL
+Added Member To Class: ClassName=sumoLab Member=Component VC5 VC4
+Added Member To Class: ClassName=sumoLab Member=Component VC6 VC4
+Added Member To Class: ClassName=sumoLab Member=Component VC7 VC4
+Added Member To Class: ClassName=sumoLab Member=Component VC8 VC4
+Added Room: Name=sumoLab
