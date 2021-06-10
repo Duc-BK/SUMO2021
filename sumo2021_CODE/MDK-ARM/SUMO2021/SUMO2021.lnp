@@ -1,0 +1,23 @@
+--cpu Cortex-M3
+"sumo2021\startup_stm32f103xb.o"
+"sumo2021\main.o"
+"sumo2021\stm32f1xx_it.o"
+"sumo2021\stm32f1xx_hal_msp.o"
+"sumo2021\stm32f1xx_hal_gpio_ex.o"
+"sumo2021\stm32f1xx_hal_tim.o"
+"sumo2021\stm32f1xx_hal_tim_ex.o"
+"sumo2021\stm32f1xx_hal.o"
+"sumo2021\stm32f1xx_hal_rcc.o"
+"sumo2021\stm32f1xx_hal_rcc_ex.o"
+"sumo2021\stm32f1xx_hal_gpio.o"
+"sumo2021\stm32f1xx_hal_dma.o"
+"sumo2021\stm32f1xx_hal_cortex.o"
+"sumo2021\stm32f1xx_hal_pwr.o"
+"sumo2021\stm32f1xx_hal_flash.o"
+"sumo2021\stm32f1xx_hal_flash_ex.o"
+"sumo2021\stm32f1xx_hal_exti.o"
+"sumo2021\system_stm32f1xx.o"
+--library_type=microlib --strict --scatter "SUMO2021\SUMO2021.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "SUMO2021.map" -o SUMO2021\SUMO2021.axf
